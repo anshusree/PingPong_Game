@@ -1,0 +1,36 @@
+#container {
+    position: relative;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(2,0,36,1), rgba(9,121,99,0.8465511204481793), rgba(0,212,255,1));
+}
+#ball {
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, rgba(36,0,0,1) 0%, rgba(9,121,99,1) 100%);
+    position: fixed;
+    top: 20px;
+    border-radius: 50%;
+}
+
+#rod1, #rod2 {
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#rod1 {
+    background-image: linear-gradient(to bottom, rgba(238,174,204,1), rgba(148,224,233,1));
+    top: 5px;    
+}
+
+#rod2 {
+    background-image: linear-gradient(to bottom, rgb(198, 146, 170), rgb(107, 173, 181));   
+    bottom: 5px;
+}
